@@ -6,7 +6,7 @@ describe('fail not fail', () => {
     })
   
     it('clicking"type" navigates to new url', () => {
-      cy.contains('next').click()
+      cy.contains('Next').click()
       cy.url().should('include', '/commands/traversal')
     })
   
